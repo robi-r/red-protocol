@@ -1,0 +1,21 @@
+[project]
+name = "red-protocol"
+version = "0.1.0"
+description = "Learn to code by keeping a rover alive on a physics-based Mars."
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+redprotocol = "redprotocol.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+[tool.setuptools.package-data]
+redprotocol = ["data/*.json"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]

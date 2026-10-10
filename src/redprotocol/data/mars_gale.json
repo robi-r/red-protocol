@@ -1,0 +1,21 @@
+{
+  "name": "Mars (Gale Crater)",
+  "gravity_m_s2": 3.71,
+  "surface_pressure_pa": 636,
+  "sol_seconds": 88775,
+  "solar_irradiance_w_m2": 590,
+  "latitude_deg": -4.6,
+  "air_temp_mean_k": 225,
+  "air_temp_amplitude_k": 45,
+  "temp_peak_local_hour": 13.0,
+  "dust_tau_clear": 0.6,
+  "dust_events": [
+    {"name": "regional_storm", "start_sol": 3.0, "end_sol": 8.0, "tau": 4.5, "temp_amp_damping": 0.25}
+  ],
+  "sources": [
+    "NASA Planetary Fact Sheet (Mars): gravity, mean pressure, sol length",
+    "Curiosity REMS (PDS Atmospheres node): air temperature and pressure, to calibrate and validate",
+    "Mars Climate Database: dust opacity scenarios"
+  ],
+  "status": "PLACEHOLDER temperature and dust parameters: calibrate against REMS before claiming accuracy"
+}
